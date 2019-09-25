@@ -1,0 +1,68 @@
+	
+		/*box-sizing: border-box;
+		css3, this is for border not broking*/
+
+	*{
+		margin: 0;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box; /*for web browser support*/
+		-moz-box-sizing: border-box;    /*for mozilla browser support*/
+	}
+
+
+
+		.item{
+    width: 33.33%;
+    float: left;
+    padding: 40px 50px;}
+		.feature{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background: aquamarine;
+    overflow: hidden;
+	}
+
+	header{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #96005924;
+    overflow: hidden;
+    padding: 20px 0px;
+}
+	.logo{
+    width: 5%;
+    float: left;
+}
+	.logo img{
+    max-width: 100%;
+}
+	nav{
+    width: 80%;
+    float: left;
+}
+	nav ul{
+    padding: 0;
+    text-align: right;
+}
+	nav ul li{
+    list-style-type: none;
+    /* float: left; */
+    display: inline-block;
+    /* background-color: red; */
+}
+	nav ul li a{
+    color: blue;
+    text-decoration: none;
+    float: left;
+    font-size: 20px;
+    text-transform: capitalize;
+    display: block;
+    background: floralwhite;
+    padding: 3px 5px;
+    display: block;
+}
+
+
+
